@@ -1,0 +1,39 @@
+{
+    "colorProblem": {
+        "id": "colorProblem",
+        "title": "8 Colors Problem",
+        "skills": [
+            "DAA"
+        ],
+        "languages": [
+            "Python"
+        ],
+        "keywords": "Dynamic programation (DP), algorithms analysis, best computational complex.",
+        "description": "Given an array A that contains only elements of 8 different types, the problem consists in finding the maximum subsequence T, which satisfies the constraints: For every pair of sets Ci, Cj of elements of specific types, it holds that |Ci| - |Cj| ≤ 1. Elements of the same set have to be consecutive in T."
+    },
+    "tito": {
+        "id": "tito",
+        "title": "Building roads",
+        "keywords": "Algorithms analysis, best computational complex, graphs theory, greedy, graph flow.",
+        "skills": [
+            "DAA"
+        ],
+        "languages": [
+            "Python"
+        ],
+        "description": "Let G(v, e) be a weighted graph on vertices and edges. The goal is to find the subgraph that maximizes the sum of edge weights minus the sum of vertex weights. Subject to the constraint that if an edge belongs to the solution subgraph then both vertices connected by it also belong to the subgraph."
+    },
+    "ftp": {
+        "id": "ftp",
+        "title": "Distributed ftp",
+        "keywords": "Bully Algorithm, distributed ftp, data persistence",
+        "skills": [
+            "networks",
+            "Dist Systems"
+        ],
+        "languages": [
+            "python"
+        ],
+        "description": "This project focuses on the design and implementation of a distributed file transfer protocol (FTP) system using Python, with a particular emphasis on leader coordination through the Bully algorithm. Distributed systems present unique challenges in terms of synchronization and coordination, especially regarding the election of a leader to manage critical operations. The Bully algorithm, recognized for its effectiveness in selecting leaders in distributed networks, plays a crucial role in this project. Distributed FTP Implementation: A distributed FTP system is developed that allows secure file transfers between nodes in a network. This system is designed to be resilient and scalable, capable of handling multiple simultaneous transfer requests without compromising performance. Bully Algorithm for Leader Coordination: The Bully algorithm is integrated for the election of leaders among the system nodes. This algorithm ensures that there is always an active and available node to coordinate FTP operations, even in case of failures or disconnections of some nodes. Failure Management and Reconnections: The system includes mechanisms to detect and handle node failures, ensuring the continuity of FTP service. When a node fails, the Bully algorithm activates a selection process to designate a new leader, minimizing service interruption."
+    }
+}

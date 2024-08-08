@@ -16,3 +16,18 @@ class ConfigGPT:
     DEFAULT_MODEL_NAME = "gpt-4o-mini"
 
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+
+    PROJECTS_KEYS = ["id", "title", "keywords", "skills", "languages"]
+
+    STRONG_FIELDS = [
+        "name",
+        "bachelor",
+        "university",
+        "study_fields",
+        "languajes",
+        "Knowledge",
+        "programming_languajes",
+        "skills",
+        "about",
+        "interests",
+    ]

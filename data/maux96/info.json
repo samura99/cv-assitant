@@ -1,0 +1,19 @@
+{
+    "github": "",
+    "name": "",
+    "bachelor": "Computer Science",
+    "university": "University of havana",
+    "about": "",
+    "interests": "",
+    "study_fields": [],
+    "languajes": "native in spanish",
+    "Knowledge": [],
+    "programming_languajes": {
+        "Python": "very high",
+        "Haskell": "low"
+    },
+    "skills": {
+        "VueJS": "very high",
+        "Telegram bot": "medium"
+    }
+}
